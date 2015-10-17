@@ -1,6 +1,6 @@
-# Angular Numbers Input
+# Angular Improved Limit Filter
 
-Allow only numbers between specified min and max values on an input field.
+Limit given string to max chars but keep full words
 
 ## Requirements
 
@@ -16,18 +16,18 @@ Load the script files in your application:
 
 ```html
 <script type="text/javascript" src="bower_components/angular/angular.js"></script>
-<script type="text/javascript" src="path/to/file/onlyNumbersInput.js"></script>
+<script type="text/javascript" src="path/to/file/improvedLimitFilter.js"></script>
 ```
 
 Add the specific module to your dependencies:
 
 ```javascript
-angular.module('myApp', ['mk.onlyNumbersInput', ...])
+angular.module('myApp', ['mk.improvedLimitFilter', ...])
 ```
 
-Use it on input fields and specify min and max values.
+Use it as filter and specify max chars and an optional suffix
 
 ```
-<input type="text" only-numbers max="100" min="0" ng-model="inputValue">
+<p> {{ stringToLimit | improvedLimit:20:'...'}} </p>
 ```
 
