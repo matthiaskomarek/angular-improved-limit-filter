@@ -1,4 +1,5 @@
 # Angular Improved Limit Filter
+[![Build Status](https://travis-ci.org/matthiaskomarek/angular-improved-limit-filter.svg)](https://travis-ci.org/matthiaskomarek/angular-improved-limit-filter) [![Code Climate](https://codeclimate.com/github/matthiaskomarek/angular-improved-limit-filter/badges/gpa.svg)](https://codeclimate.com/github/matthiaskomarek/angular-improved-limit-filter)
 
 Limit given string to max chars but keep full words
 
